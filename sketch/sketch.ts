@@ -3,7 +3,7 @@ let numberOfShapesControl: p5.Element;
 
 // P5 WILL AUTOMATICALLY USE GLOBAL MODE IF A DRAW() FUNCTION IS DEFINED
 function setup() {
-  console.log("🚀 - Setup initialized - O P5 está rodando");
+  console.log("🚀 - Setup initialized - P5 está rodando");
 
   createCanvas(windowWidth, windowHeight);
   rectMode(CENTER).noFill().frameRate(30);
